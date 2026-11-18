@@ -1,0 +1,400 @@
+[
+  {
+    "id": "SW-M",
+    "name": "Джемпер «Нежность»",
+    "nm_id": 950101,
+    "sandbox_nm_id": null,
+    "photo": "/static/products/sweater-camel-m.png",
+    "category": "джемперы",
+    "tags": [
+      "softness",
+      "look"
+    ],
+    "sizes": [
+      "M"
+    ],
+    "stock": {
+      "M": 3
+    },
+    "promo_start": 0,
+    "promo_end": 0,
+    "snapshot_at": 0,
+    "source": "Синтетический снимок Demo; не данные WB",
+    "approved": true,
+    "priority": 12,
+    "relations": {
+      "DR-01": "Утверждённая учебная связь с DR-01",
+      "SU-01": "Утверждённая учебная связь с SU-01",
+      "SU-02": "Утверждённая учебная связь с SU-02",
+      "TS-01": "Утверждённая учебная связь с TS-01",
+      "SH-03": "Утверждённая учебная связь с SH-03",
+      "CD-05": "Утверждённая учебная связь с CD-05"
+    },
+    "kit_id": "warm-M"
+  },
+  {
+    "id": "SW-L",
+    "name": "Джемпер «Нежность»",
+    "nm_id": 950102,
+    "sandbox_nm_id": null,
+    "photo": "/static/products/sweater-camel-m.png",
+    "category": "джемперы",
+    "tags": [
+      "softness",
+      "look"
+    ],
+    "sizes": [
+      "L"
+    ],
+    "stock": {
+      "L": 0
+    },
+    "promo_start": 0,
+    "promo_end": 0,
+    "snapshot_at": 0,
+    "source": "Синтетический снимок Demo; не данные WB",
+    "approved": true,
+    "priority": 12,
+    "relations": {
+      "DR-01": "Утверждённая учебная связь с DR-01",
+      "SU-01": "Утверждённая учебная связь с SU-01",
+      "SU-02": "Утверждённая учебная связь с SU-02",
+      "TS-01": "Утверждённая учебная связь с TS-01",
+      "SH-03": "Утверждённая учебная связь с SH-03",
+      "CD-05": "Утверждённая учебная связь с CD-05"
+    },
+    "kit_id": "warm-L"
+  },
+  {
+    "id": "CA-M",
+    "name": "Кардиган «Линия»",
+    "nm_id": 950103,
+    "sandbox_nm_id": null,
+    "photo": "/static/products/cardigan-grey-m.png",
+    "category": "кардиганы",
+    "tags": [
+      "softness",
+      "look"
+    ],
+    "sizes": [
+      "M"
+    ],
+    "stock": {
+      "M": 3
+    },
+    "promo_start": 0,
+    "promo_end": 0,
+    "snapshot_at": 0,
+    "source": "Синтетический снимок Demo; не данные WB",
+    "approved": true,
+    "priority": 11,
+    "relations": {
+      "DR-01": "Утверждённая учебная связь с DR-01",
+      "SU-01": "Утверждённая учебная связь с SU-01",
+      "SU-02": "Утверждённая учебная связь с SU-02",
+      "TS-01": "Утверждённая учебная связь с TS-01",
+      "SH-03": "Утверждённая учебная связь с SH-03",
+      "CD-05": "Утверждённая учебная связь с CD-05"
+    },
+    "kit_id": null
+  },
+  {
+    "id": "CA-L",
+    "name": "Кардиган «Линия»",
+    "nm_id": 950104,
+    "sandbox_nm_id": null,
+    "photo": "/static/products/cardigan-grey-m.png",
+    "category": "кардиганы",
+    "tags": [
+      "softness",
+      "look"
+    ],
+    "sizes": [
+      "L"
+    ],
+    "stock": {
+      "L": 0
+    },
+    "promo_start": 0,
+    "promo_end": 0,
+    "snapshot_at": 0,
+    "source": "Синтетический снимок Demo; не данные WB",
+    "approved": true,
+    "priority": 11,
+    "relations": {
+      "DR-01": "Утверждённая учебная связь с DR-01",
+      "SU-01": "Утверждённая учебная связь с SU-01",
+      "SU-02": "Утверждённая учебная связь с SU-02",
+      "TS-01": "Утверждённая учебная связь с TS-01",
+      "SH-03": "Утверждённая учебная связь с SH-03",
+      "CD-05": "Утверждённая учебная связь с CD-05"
+    },
+    "kit_id": null
+  },
+  {
+    "id": "KD-M",
+    "name": "Платье «Облако»",
+    "nm_id": 950105,
+    "sandbox_nm_id": null,
+    "photo": "/static/products/dress-grey-m.png",
+    "category": "платья",
+    "tags": [
+      "softness",
+      "fit",
+      "look"
+    ],
+    "sizes": [
+      "M"
+    ],
+    "stock": {
+      "M": 3
+    },
+    "promo_start": 0,
+    "promo_end": 0,
+    "snapshot_at": 0,
+    "source": "Синтетический снимок Demo; не данные WB",
+    "approved": true,
+    "priority": 10,
+    "relations": {
+      "DR-01": "Утверждённая учебная связь с DR-01",
+      "SU-01": "Утверждённая учебная связь с SU-01",
+      "SU-02": "Утверждённая учебная связь с SU-02",
+      "TS-01": "Утверждённая учебная связь с TS-01",
+      "SH-03": "Утверждённая учебная связь с SH-03",
+      "CD-05": "Утверждённая учебная связь с CD-05"
+    },
+    "kit_id": null
+  },
+  {
+    "id": "KD-L",
+    "name": "Платье «Облако»",
+    "nm_id": 950106,
+    "sandbox_nm_id": null,
+    "photo": "/static/products/dress-grey-m.png",
+    "category": "платья",
+    "tags": [
+      "softness",
+      "fit",
+      "look"
+    ],
+    "sizes": [
+      "L"
+    ],
+    "stock": {
+      "L": 0
+    },
+    "promo_start": 0,
+    "promo_end": 0,
+    "snapshot_at": 0,
+    "source": "Синтетический снимок Demo; не данные WB",
+    "approved": true,
+    "priority": 10,
+    "relations": {
+      "DR-01": "Утверждённая учебная связь с DR-01",
+      "SU-01": "Утверждённая учебная связь с SU-01",
+      "SU-02": "Утверждённая учебная связь с SU-02",
+      "TS-01": "Утверждённая учебная связь с TS-01",
+      "SH-03": "Утверждённая учебная связь с SH-03",
+      "CD-05": "Утверждённая учебная связь с CD-05"
+    },
+    "kit_id": null
+  },
+  {
+    "id": "SK-M",
+    "name": "Юбка «Складка»",
+    "nm_id": 950107,
+    "sandbox_nm_id": null,
+    "photo": "/static/products/skirt-charcoal-m.png",
+    "category": "юбки",
+    "tags": [
+      "fit",
+      "look"
+    ],
+    "sizes": [
+      "M"
+    ],
+    "stock": {
+      "M": 3
+    },
+    "promo_start": 0,
+    "promo_end": 0,
+    "snapshot_at": 0,
+    "source": "Синтетический снимок Demo; не данные WB",
+    "approved": true,
+    "priority": 9,
+    "relations": {
+      "DR-01": "Утверждённая учебная связь с DR-01",
+      "SU-01": "Утверждённая учебная связь с SU-01",
+      "SU-02": "Утверждённая учебная связь с SU-02",
+      "TS-01": "Утверждённая учебная связь с TS-01",
+      "SH-03": "Утверждённая учебная связь с SH-03",
+      "CD-05": "Утверждённая учебная связь с CD-05"
+    },
+    "kit_id": "warm-M"
+  },
+  {
+    "id": "SK-L",
+    "name": "Юбка «Складка»",
+    "nm_id": 950108,
+    "sandbox_nm_id": null,
+    "photo": "/static/products/skirt-charcoal-m.png",
+    "category": "юбки",
+    "tags": [
+      "fit",
+      "look"
+    ],
+    "sizes": [
+      "L"
+    ],
+    "stock": {
+      "L": 0
+    },
+    "promo_start": 0,
+    "promo_end": 0,
+    "snapshot_at": 0,
+    "source": "Синтетический снимок Demo; не данные WB",
+    "approved": true,
+    "priority": 9,
+    "relations": {
+      "DR-01": "Утверждённая учебная связь с DR-01",
+      "SU-01": "Утверждённая учебная связь с SU-01",
+      "SU-02": "Утверждённая учебная связь с SU-02",
+      "TS-01": "Утверждённая учебная связь с TS-01",
+      "SH-03": "Утверждённая учебная связь с SH-03",
+      "CD-05": "Утверждённая учебная связь с CD-05"
+    },
+    "kit_id": "warm-L"
+  },
+  {
+    "id": "SC-M",
+    "name": "Костюм «Облако» · кремовый",
+    "nm_id": 950109,
+    "sandbox_nm_id": null,
+    "photo": "/static/products/suit-cream-m.png",
+    "category": "костюмы",
+    "tags": [
+      "fit",
+      "look"
+    ],
+    "sizes": [
+      "M"
+    ],
+    "stock": {
+      "M": 3
+    },
+    "promo_start": 0,
+    "promo_end": 0,
+    "snapshot_at": 0,
+    "source": "Синтетический снимок Demo; не данные WB",
+    "approved": true,
+    "priority": 8,
+    "relations": {
+      "DR-01": "Утверждённая учебная связь с DR-01",
+      "SU-01": "Утверждённая учебная связь с SU-01",
+      "SU-02": "Утверждённая учебная связь с SU-02",
+      "TS-01": "Утверждённая учебная связь с TS-01",
+      "SH-03": "Утверждённая учебная связь с SH-03",
+      "CD-05": "Утверждённая учебная связь с CD-05"
+    },
+    "kit_id": null
+  },
+  {
+    "id": "SC-L",
+    "name": "Костюм «Облако» · кремовый",
+    "nm_id": 950110,
+    "sandbox_nm_id": null,
+    "photo": "/static/products/suit-cream-m.png",
+    "category": "костюмы",
+    "tags": [
+      "fit",
+      "look"
+    ],
+    "sizes": [
+      "L"
+    ],
+    "stock": {
+      "L": 0
+    },
+    "promo_start": 0,
+    "promo_end": 0,
+    "snapshot_at": 0,
+    "source": "Синтетический снимок Demo; не данные WB",
+    "approved": true,
+    "priority": 8,
+    "relations": {
+      "DR-01": "Утверждённая учебная связь с DR-01",
+      "SU-01": "Утверждённая учебная связь с SU-01",
+      "SU-02": "Утверждённая учебная связь с SU-02",
+      "TS-01": "Утверждённая учебная связь с TS-01",
+      "SH-03": "Утверждённая учебная связь с SH-03",
+      "CD-05": "Утверждённая учебная связь с CD-05"
+    },
+    "kit_id": null
+  },
+  {
+    "id": "SG-M",
+    "name": "Костюм «Облако» · графит",
+    "nm_id": 950111,
+    "sandbox_nm_id": null,
+    "photo": "/static/products/suit-charcoal-m.png",
+    "category": "костюмы",
+    "tags": [
+      "fit",
+      "look"
+    ],
+    "sizes": [
+      "M"
+    ],
+    "stock": {
+      "M": 3
+    },
+    "promo_start": 0,
+    "promo_end": 0,
+    "snapshot_at": 0,
+    "source": "Синтетический снимок Demo; не данные WB",
+    "approved": true,
+    "priority": 7,
+    "relations": {
+      "DR-01": "Утверждённая учебная связь с DR-01",
+      "SU-01": "Утверждённая учебная связь с SU-01",
+      "SU-02": "Утверждённая учебная связь с SU-02",
+      "TS-01": "Утверждённая учебная связь с TS-01",
+      "SH-03": "Утверждённая учебная связь с SH-03",
+      "CD-05": "Утверждённая учебная связь с CD-05"
+    },
+    "kit_id": null
+  },
+  {
+    "id": "SG-L",
+    "name": "Костюм «Облако» · графит",
+    "nm_id": 950112,
+    "sandbox_nm_id": null,
+    "photo": "/static/products/suit-charcoal-m.png",
+    "category": "костюмы",
+    "tags": [
+      "fit",
+      "look"
+    ],
+    "sizes": [
+      "L"
+    ],
+    "stock": {
+      "L": 0
+    },
+    "promo_start": 0,
+    "promo_end": 0,
+    "snapshot_at": 0,
+    "source": "Синтетический снимок Demo; не данные WB",
+    "approved": true,
+    "priority": 7,
+    "relations": {
+      "DR-01": "Утверждённая учебная связь с DR-01",
+      "SU-01": "Утверждённая учебная связь с SU-01",
+      "SU-02": "Утверждённая учебная связь с SU-02",
+      "TS-01": "Утверждённая учебная связь с TS-01",
+      "SH-03": "Утверждённая учебная связь с SH-03",
+      "CD-05": "Утверждённая учебная связь с CD-05"
+    },
+    "kit_id": null
+  }
+]

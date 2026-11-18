@@ -1,0 +1,37 @@
+#library-entry{display:inline-block;margin:8px 0 0 10px;color:#006b54;border-color:#9fcdbd}
+.settings-grid[hidden]{display:none}
+#library-entry.active{background:#dff5ed}
+.library-workspace{margin-top:14px;border-top:1px solid var(--line);padding-top:14px;min-width:0}
+.library-workspace *{box-sizing:border-box}
+.library-heading{display:flex;align-items:start;gap:24px;margin-bottom:16px}
+.library-heading button,.library-editor-head button{border:0;background:none;color:#006b54;padding:3px 0;white-space:nowrap;text-decoration:underline}
+.library-heading h2{margin:0 0 3px}.library-heading p{margin:0;color:#52647d}
+.library-layout{display:grid;grid-template-columns:minmax(280px,34%) minmax(0,1fr);gap:24px;align-items:start}
+.library-chooser{border-right:1px solid var(--line);padding-right:22px;min-width:0}
+.library-search{display:grid;grid-template-columns:minmax(0,1fr) 145px;gap:8px;margin-bottom:8px}
+.library-search input,.library-search select{width:100%;min-width:0}
+.library-list{border-top:1px solid var(--line)}
+.library-item{display:block;width:100%;text-align:left;border:0;border-bottom:1px solid var(--line);border-radius:0;padding:10px 9px;background:#fff;color:#112038}
+.library-item.selected{background:#e7f6ef}.library-item strong,.library-item span{display:block}.library-item strong{font-size:14px}
+.library-item span{font-size:12px;color:#52647d;line-height:1.35;margin-top:3px}
+.library-detail{min-width:0}.library-detail h3{margin:11px 0 5px}.library-detail details{border-top:1px solid var(--line);padding:10px 0;margin:12px 0}
+.library-detail details small{display:block;margin-top:7px}.library-detail a{overflow-wrap:anywhere}
+.library-context{display:flex;gap:10px;align-items:center;border-bottom:1px solid var(--line);padding-bottom:10px}
+.library-context img{width:42px;height:48px;object-fit:cover;border-radius:5px}.library-context small{display:block;color:#52647d}
+.library-purpose{color:#53647e;margin:0 0 14px}.library-summary strong{display:block;margin-top:11px}.library-summary p{margin:4px 0 9px;line-height:1.45}
+.library-start,.library-preview-actions,.library-actions{display:flex;gap:9px;align-items:end;flex-wrap:wrap;margin:14px 0}
+.library-start label{min-width:210px;flex:1;font-weight:650}.library-start select{display:block;width:100%;margin-top:5px}
+.library-editor-head p{color:#52647d;margin:0 0 12px}.library-block{border-top:1px solid var(--line);padding:10px 0}
+.library-block h4,.library-check h4{font-size:17px;margin:0 0 8px}.library-block label,.library-extra label,.library-check label{display:block;font-size:13px;font-weight:650;margin:7px 0}
+.library-block textarea,.library-extra textarea,.library-check select{display:block;width:100%;margin-top:5px}
+.library-block textarea{min-height:78px;resize:vertical;line-height:1.4}
+.library-block textarea,.library-extra textarea{font-size:14px;font-weight:400}
+.library-extra textarea{min-height:60px;resize:vertical}.library-extra textarea[name=approval_source]:placeholder-shown{border-color:#bf7d1c}
+.library-check{border-top:1px solid var(--line);padding-top:12px}
+.library-quote{border-left:3px solid #9fcdbd;padding:8px 11px;margin:8px 0;background:#f4f6f9;white-space:pre-wrap}
+.library-preview-actions{margin:8px 0}.library-tabs{display:flex;gap:5px;margin-top:10px}
+.library-tabs button.active{background:#dff5ed;color:#006b54}.library-answer{border:1px solid var(--line);border-radius:7px;background:#f4f6f9;padding:12px;line-height:1.45;white-space:pre-wrap}
+.library-actions{border-top:1px solid var(--line);padding-top:12px}.library-actions .micro{flex:1;min-width:170px}.library-actions button{white-space:nowrap}
+.settings-footer .library-actions{width:100%;border:0;padding:0;margin:0}
+@media(max-width:900px){.library-layout{grid-template-columns:minmax(0,1fr)}.library-chooser{border-right:0;padding-right:0}.library-list{max-height:300px;overflow:auto}.library-heading{display:block}.library-heading button{margin-bottom:8px}}
+@media(max-width:540px){.library-search{grid-template-columns:minmax(0,1fr)}.library-workspace{padding:10px 0}.library-context strong{font-size:14px}.settings-footer .library-actions{display:grid;grid-template-columns:minmax(0,1fr);gap:5px}.settings-footer .library-actions button{width:100%;min-width:0}.settings-footer .library-actions .micro{min-width:0}}

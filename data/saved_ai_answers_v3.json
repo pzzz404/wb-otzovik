@@ -1,0 +1,29 @@
+[
+  {
+    "kind":"feedback","nm_id":910001,"body":"После стирки футболка села.",
+    "profile_revision":"46b35aea404a74291e0151c56f5ac56c3b4214b2dad703c10453aea779fa43eb",
+    "policy_revision":"f8b4c558b17ad8ae3bca33ee94d1537bea4f792f23f84a3fda0059edc9892bf6",
+    "ai_contract_hash":"9b82b886540cafd35e0c90f0fa7b44439f85067813fe8ccdadf204bda50a4f98",
+    "source_hash":"d429d6f64c08e1fed9a8f2a917e66817f4f407367ff192f40a8788c9ca89567b",
+    "text":"Спасибо, что сообщили о проблеме с качеством. Чтобы лучше понять ситуацию, уточните, пожалуйста, как вы стирали футболку: при какой температуре и с какими средствами?",
+    "fact_ids":[],"source":"isolated Hermes completion; server validated"
+  },
+  {
+    "kind":"question","nm_id":910001,"body":"Выбираю между M и L. Какой размер лучше?",
+    "profile_revision":"46b35aea404a74291e0151c56f5ac56c3b4214b2dad703c10453aea779fa43eb",
+    "policy_revision":"f8b4c558b17ad8ae3bca33ee94d1537bea4f792f23f84a3fda0059edc9892bf6",
+    "ai_contract_hash":"9b82b886540cafd35e0c90f0fa7b44439f85067813fe8ccdadf204bda50a4f98",
+    "source_hash":"7f6dc82c750a83547a1dddb215ec3f0410ec2d6536b9ff69740928065ce60b35",
+    "text":"Чтобы помочь выбрать между размерами M и L, уточните, пожалуйста, какая посадка вам больше нравится: более обтягивающая или свободная? Также будет полезно сравнить ваши замеры с таблицей размеров футболки.",
+    "fact_ids":[],"source":"isolated Hermes completion; server validated"
+  },
+  {
+    "kind":"question","nm_id":910001,"body":"Как стирать эту футболку?",
+    "profile_revision":"46b35aea404a74291e0151c56f5ac56c3b4214b2dad703c10453aea779fa43eb",
+    "policy_revision":"f8b4c558b17ad8ae3bca33ee94d1537bea4f792f23f84a3fda0059edc9892bf6",
+    "ai_contract_hash":"9b82b886540cafd35e0c90f0fa7b44439f85067813fe8ccdadf204bda50a4f98",
+    "source_hash":"4bd9c06c8333a79ac1d3f925f25cedef663cdfad516557de2731dc88b892994d",
+    "text":"Пожалуйста, уточните цвет и размер футболки «Роса», чтобы я мог дать точные рекомендации по стирке именно вашего варианта.",
+    "fact_ids":[],"source":"isolated Hermes completion; server validated"
+  }
+]

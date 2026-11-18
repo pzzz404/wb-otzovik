@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "auto_enabled": true,
+  "min_rating": 4,
+  "allow_simple_positive": true,
+  "allow_direct_profile_fact": true,
+  "question_auto_audience": "manual",
+  "allow_auto_recommendations": false,
+  "max_review_chars": 700,
+  "max_answer_chars": 700,
+  "manual_llm_budget_per_day": 30,
+  "manual_llm_max_per_cycle": 2,
+  "sandbox_poll_seconds": 60,
+  "demo_poll_seconds": 3,
+  "sync_page_size": 100,
+  "sync_max_pages_per_cycle": 20
+}

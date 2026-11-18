@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><title>ВБ-отзовик · очередь и правила</title><link rel="icon" href="/static/favicon-round.svg?v=1" type="image/svg+xml" sizes="any"><link rel="stylesheet" href="/static/v4.css"><link rel="stylesheet" href="/static/complaint_library.css"></head>
+<body>
+<header class="topbar">
+  <div class="brand"><img class="brand-mark" src="/static/brand-avatar.jpg" alt="Аватар ВБ-отзовика"><strong>ВБ-отзовик</strong></div>
+  <nav class="entity-nav" aria-label="Тип обращений"><button type="button" data-kind="feedback" class="active">Отзывы</button><button type="button" data-kind="question">Вопросы</button></nav>
+  <div class="top-actions"><span id="automation-status" class="automation-status" aria-live="polite">Загрузка…</span><button id="auto-pause" type="button">Пауза</button><button id="open-settings" type="button" class="plain">Настроить</button><span id="mode-badge" class="mode-badge">Demo</span></div>
+</header>
+<div id="notice" role="status" aria-live="polite" hidden></div>
+<section id="queue-view" class="queue-view">
+  <div class="summary-line" id="summary-line">Загрузка очереди…</div>
+  <div class="filter-bar">
+    <label class="product-filter"><span class="visually-hidden">Товар</span><select id="queue-product"></select></label>
+    <label class="search-filter"><span class="visually-hidden">Поиск по тексту и ID</span><input id="queue-search" type="search" placeholder="Поиск по тексту или ID" autocomplete="off"></label>
+    <label class="rating-filter"><span class="visually-hidden">Оценка</span><select id="queue-rating"><option value="0">Оценка: все</option><option value="5">5 звёзд</option><option value="4">4 звезды</option><option value="3">3 звезды</option><option value="2">2 звезды</option><option value="1">1 звезда</option></select></label>
+    <label class="sort-filter"><span class="visually-hidden">Порядок</span><select id="queue-sort"><option value="oldest">Сначала старые</option><option value="newest">Сначала новые</option></select></label>
+  </div>
+  <main class="queue-layout" id="queue-layout" data-mobile-view="list">
+    <section class="queue-panel" aria-label="Очередь обращений">
+      <nav class="queue-tabs" aria-label="Состояние очереди"><button data-tab="attention" class="active">На проверке <b>0</b></button><button data-tab="processing">В обработке <b>0</b></button><button data-tab="done">Отправлены <b>0</b></button><button data-tab="errors">Ошибки <b>0</b></button><button data-tab="deferred">Отложены <b>0</b></button><button data-tab="all">Все <b>0</b></button></nav>
+      <p class="queue-hint" id="queue-hint">Показаны обращения, которые система не отправила автоматически</p>
+      <div class="table-head" aria-hidden="true"><span>Товар</span><span>Покупатель / дата</span><span>Оценка</span><span>Отзыв</span><span>Причина проверки</span></div>
+      <div id="queue-list" class="queue-list" role="list"></div>
+      <div class="queue-pager"><span id="queue-page-info">—</span><div><button id="prev-page" type="button" aria-label="Предыдущая страница">Назад</button><span id="page-numbers"></span><button id="next-page" type="button" aria-label="Следующая страница">Далее</button></div></div>
+    </section>
+    <section class="editor-panel" aria-label="Разбор обращения"><div id="detail" class="detail"><div class="empty">Выберите обращение в очереди</div></div></section>
+  </main>
+</section>
+<section id="settings-view" class="settings-view" hidden>
+  <div class="settings-head"><button id="settings-back" class="text-link" type="button">← К очереди</button><h1 id="settings-title">Настройки автоответов</h1>
+    <nav class="settings-tabs" aria-label="Настройки"><button data-section="automation" class="active">Автоответы</button><button data-section="knowledge">Знания и сценарии</button><button data-section="upsell">Допродажи</button><button data-section="proposals">Предложения ИИ <b id="proposal-count">0</b></button></nav></div>
+  <div id="settings-content" class="settings-content"></div>
+  <div id="settings-footer" class="settings-footer"></div>
+</section>
+<dialog id="photo-dialog" class="photo-dialog"><button id="photo-close" type="button">Закрыть</button><img id="photo-full" alt="Фото покупателя в увеличенном виде"></dialog>
+<dialog id="defer-dialog"><form method="dialog"><h2>Отложить обращение</h2><label>Причина<textarea id="defer-reason" required minlength="3" maxlength="300" placeholder="Что нужно уточнить перед ответом?"></textarea></label><div class="dialog-actions"><button value="cancel" formnovalidate>Отмена</button><button value="confirm" class="primary">Отложить</button></div></form></dialog>
+<dialog id="template-dialog"><h2>Готовые ответы</h2><p>Шаблоны хранятся локально. Параметры берутся только из утверждённых знаний.</p><div id="template-list"></div><form id="template-form"><input id="template-id" type="hidden"><label>Название<input id="template-name" required maxlength="80"></label><label>Тип<select id="template-kind"><option value="feedback">Отзыв</option><option value="question">Вопрос</option><option value="both">Оба</option></select></label><label>Сценарий<input id="template-intent" required pattern="[a-z_]+"></label><label>Текст<textarea id="template-body" required maxlength="700"></textarea></label><p class="micro">Параметры: {composition}, {wash}, {dry}, {iron}, {fit}, {measurement}, {contents}, {feature}, {size_rule}</p><div class="dialog-actions"><button id="template-close" type="button">Закрыть</button><button class="primary" type="submit">Сохранить</button></div></form></dialog>
+<script src="/static/v4.js"></script><script src="/static/complaint_library.js"></script></body></html>

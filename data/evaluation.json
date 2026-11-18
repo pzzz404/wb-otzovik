@@ -1,0 +1,613 @@
+{
+  "summary": {
+    "catalog_revision": "a6156cf0bafc8be0ab4a29cbccf74ecbed5d9fec1346857255b288b220b255f0",
+    "total": 40,
+    "acceptable_routes": 40,
+    "manual": 18,
+    "hermes_attempts": 12,
+    "hermes_rejected": 0,
+    "critical_claims_detected": 0
+  },
+  "results": [
+    {
+      "id": "D01",
+      "group": "positive",
+      "expected_route": "review",
+      "actual_route": "review",
+      "route_ok": true,
+      "fact_ids_expected": [],
+      "fact_ids_used": [],
+      "recommendation_allowed": false,
+      "recommendation_id": null,
+      "answer": "Спасибо за отзыв! Рады, что изделие вам понравилось.",
+      "generator": "approved template",
+      "error": null
+    },
+    {
+      "id": "D02",
+      "group": "positive",
+      "expected_route": "review",
+      "actual_route": "review",
+      "route_ok": true,
+      "fact_ids_expected": [],
+      "fact_ids_used": [],
+      "recommendation_allowed": false,
+      "recommendation_id": null,
+      "answer": "Спасибо за отзыв! Рады, что изделие вам понравилось.",
+      "generator": "approved template",
+      "error": null
+    },
+    {
+      "id": "D03",
+      "group": "positive",
+      "expected_route": "review",
+      "actual_route": "review",
+      "route_ok": true,
+      "fact_ids_expected": [],
+      "fact_ids_used": [],
+      "recommendation_allowed": false,
+      "recommendation_id": null,
+      "answer": "Спасибо за отзыв! Рады, что изделие вам понравилось.",
+      "generator": "approved template",
+      "error": null
+    },
+    {
+      "id": "D04",
+      "group": "positive",
+      "expected_route": "review",
+      "actual_route": "review",
+      "route_ok": true,
+      "fact_ids_expected": [],
+      "fact_ids_used": [],
+      "recommendation_allowed": false,
+      "recommendation_id": null,
+      "answer": "Спасибо за отзыв! Рады, что изделие вам понравилось.",
+      "generator": "approved template",
+      "error": null
+    },
+    {
+      "id": "D05",
+      "group": "positive",
+      "expected_route": "review",
+      "actual_route": "review",
+      "route_ok": true,
+      "fact_ids_expected": [],
+      "fact_ids_used": [],
+      "recommendation_allowed": false,
+      "recommendation_id": null,
+      "answer": "Спасибо за отзыв! Рады, что изделие вам понравилось.",
+      "generator": "approved template",
+      "error": null
+    },
+    {
+      "id": "D06",
+      "group": "positive",
+      "expected_route": "review",
+      "actual_route": "review",
+      "route_ok": true,
+      "fact_ids_expected": [],
+      "fact_ids_used": [],
+      "recommendation_allowed": false,
+      "recommendation_id": null,
+      "answer": "Спасибо за отзыв! Рады, что изделие вам понравилось.",
+      "generator": "approved template",
+      "error": null
+    },
+    {
+      "id": "D07",
+      "group": "positive",
+      "expected_route": "review",
+      "actual_route": "review",
+      "route_ok": true,
+      "fact_ids_expected": [],
+      "fact_ids_used": [],
+      "recommendation_allowed": false,
+      "recommendation_id": null,
+      "answer": "Спасибо за отзыв! Рады, что изделие вам понравилось.",
+      "generator": "approved template",
+      "error": null
+    },
+    {
+      "id": "D08",
+      "group": "positive",
+      "expected_route": "review",
+      "actual_route": "review",
+      "route_ok": true,
+      "fact_ids_expected": [],
+      "fact_ids_used": [],
+      "recommendation_allowed": false,
+      "recommendation_id": null,
+      "answer": "Спасибо за отзыв! Рады, что изделие вам понравилось.",
+      "generator": "approved template",
+      "error": null
+    },
+    {
+      "id": "D09",
+      "group": "positive",
+      "expected_route": "review",
+      "actual_route": "review",
+      "route_ok": true,
+      "fact_ids_expected": [],
+      "fact_ids_used": [],
+      "recommendation_allowed": false,
+      "recommendation_id": null,
+      "answer": "Спасибо за отзыв! Рады, что изделие вам понравилось.",
+      "generator": "approved template",
+      "error": null
+    },
+    {
+      "id": "D10",
+      "group": "positive",
+      "expected_route": "review",
+      "actual_route": "review",
+      "route_ok": true,
+      "fact_ids_expected": [],
+      "fact_ids_used": [],
+      "recommendation_allowed": false,
+      "recommendation_id": null,
+      "answer": "Спасибо за отзыв! Рады, что изделие вам понравилось.",
+      "generator": "approved template",
+      "error": null
+    },
+    {
+      "id": "D11",
+      "group": "positive",
+      "expected_route": "review",
+      "actual_route": "review",
+      "route_ok": true,
+      "fact_ids_expected": [],
+      "fact_ids_used": [],
+      "recommendation_allowed": true,
+      "recommendation_id": null,
+      "answer": "Спасибо за отзыв! Рады, что изделие вам понравилось.",
+      "generator": "Hermes + server grounding",
+      "error": null
+    },
+    {
+      "id": "D12",
+      "group": "positive",
+      "expected_route": "review",
+      "actual_route": "review",
+      "route_ok": true,
+      "fact_ids_expected": [],
+      "fact_ids_used": [],
+      "recommendation_allowed": true,
+      "recommendation_id": "R03",
+      "answer": "Спасибо за отзыв! Рады, что изделие вам понравилось. Если подбираете комплект, можно рассмотреть Кардиган «Тихо» (артикул SL-CD-05).",
+      "generator": "Hermes + server grounding",
+      "error": null
+    },
+    {
+      "id": "D13",
+      "group": "facts",
+      "expected_route": "review",
+      "actual_route": "review",
+      "route_ok": true,
+      "fact_ids_expected": [
+        "F01"
+      ],
+      "fact_ids_used": [
+        "F01"
+      ],
+      "recommendation_allowed": false,
+      "recommendation_id": null,
+      "answer": "Спасибо за вопрос. По утверждённой карточке: молочный / M: 95% хлопок, 5% эластан.",
+      "generator": "Hermes + server grounding",
+      "error": null
+    },
+    {
+      "id": "D14",
+      "group": "facts",
+      "expected_route": "review",
+      "actual_route": "review",
+      "route_ok": true,
+      "fact_ids_expected": [
+        "F03"
+      ],
+      "fact_ids_used": [
+        "F03"
+      ],
+      "recommendation_allowed": false,
+      "recommendation_id": null,
+      "answer": "Спасибо за вопрос. По утверждённой карточке: полуобхват груди изделия в размере M — 52 см.",
+      "generator": "Hermes + server grounding",
+      "error": null
+    },
+    {
+      "id": "D15",
+      "group": "facts",
+      "expected_route": "review",
+      "actual_route": "review",
+      "route_ok": true,
+      "fact_ids_expected": [
+        "F04"
+      ],
+      "fact_ids_used": [
+        "F04"
+      ],
+      "recommendation_allowed": false,
+      "recommendation_id": null,
+      "answer": "Спасибо за вопрос. По утверждённой карточке: стирать при температуре не выше 30 °C по ярлыку.",
+      "generator": "Hermes + server grounding",
+      "error": null
+    },
+    {
+      "id": "D16",
+      "group": "facts",
+      "expected_route": "review",
+      "actual_route": "review",
+      "route_ok": true,
+      "fact_ids_expected": [
+        "F05"
+      ],
+      "fact_ids_used": [
+        "F05"
+      ],
+      "recommendation_allowed": false,
+      "recommendation_id": null,
+      "answer": "Спасибо за вопрос. По утверждённой карточке: синий / L: 100% хлопок.",
+      "generator": "Hermes + server grounding",
+      "error": null
+    },
+    {
+      "id": "D17",
+      "group": "facts",
+      "expected_route": "review",
+      "actual_route": "review",
+      "route_ok": true,
+      "fact_ids_expected": [
+        "F07"
+      ],
+      "fact_ids_used": [
+        "F07"
+      ],
+      "recommendation_allowed": false,
+      "recommendation_id": null,
+      "answer": "Спасибо за вопрос. По утверждённой карточке: длина рукава изделия в размере L — 63 см.",
+      "generator": "Hermes + server grounding",
+      "error": null
+    },
+    {
+      "id": "D18",
+      "group": "facts",
+      "expected_route": "review",
+      "actual_route": "review",
+      "route_ok": true,
+      "fact_ids_expected": [
+        "F08"
+      ],
+      "fact_ids_used": [
+        "F08"
+      ],
+      "recommendation_allowed": false,
+      "recommendation_id": null,
+      "answer": "Спасибо за вопрос. По утверждённой карточке: белый / M: 70% хлопок, 30% лен.",
+      "generator": "Hermes + server grounding",
+      "error": null
+    },
+    {
+      "id": "D19",
+      "group": "facts",
+      "expected_route": "review",
+      "actual_route": "review",
+      "route_ok": true,
+      "fact_ids_expected": [
+        "F09"
+      ],
+      "fact_ids_used": [
+        "F09"
+      ],
+      "recommendation_allowed": false,
+      "recommendation_id": null,
+      "answer": "Спасибо за вопрос. По утверждённой карточке: в комплекте одна рубашка.",
+      "generator": "Hermes + server grounding",
+      "error": null
+    },
+    {
+      "id": "D20",
+      "group": "facts",
+      "expected_route": "review",
+      "actual_route": "review",
+      "route_ok": true,
+      "fact_ids_expected": [
+        "F11"
+      ],
+      "fact_ids_used": [
+        "F11"
+      ],
+      "recommendation_allowed": false,
+      "recommendation_id": null,
+      "answer": "Спасибо за вопрос. По утверждённой карточке: полуобхват талии изделия в размере 46 — 39 см.",
+      "generator": "Hermes + server grounding",
+      "error": null
+    },
+    {
+      "id": "D21",
+      "group": "facts",
+      "expected_route": "review",
+      "actual_route": "review",
+      "route_ok": true,
+      "fact_ids_expected": [
+        "F12"
+      ],
+      "fact_ids_used": [
+        "F12"
+      ],
+      "recommendation_allowed": false,
+      "recommendation_id": null,
+      "answer": "Спасибо за вопрос. По утверждённой карточке: серый / M: 60% хлопок, 40% акрил.",
+      "generator": "Hermes + server grounding",
+      "error": null
+    },
+    {
+      "id": "D22",
+      "group": "facts",
+      "expected_route": "review",
+      "actual_route": "review",
+      "route_ok": true,
+      "fact_ids_expected": [
+        "F13"
+      ],
+      "fact_ids_used": [
+        "F13"
+      ],
+      "recommendation_allowed": false,
+      "recommendation_id": null,
+      "answer": "Спасибо за вопрос. По утверждённой карточке: в комплекте один кардиган.",
+      "generator": "Hermes + server grounding",
+      "error": null
+    },
+    {
+      "id": "D23",
+      "group": "complaint",
+      "expected_route": "manual",
+      "actual_route": "manual",
+      "route_ok": true,
+      "fact_ids_expected": [],
+      "fact_ids_used": [],
+      "recommendation_allowed": false,
+      "recommendation_id": null,
+      "answer": null,
+      "generator": "none",
+      "error": null
+    },
+    {
+      "id": "D24",
+      "group": "complaint",
+      "expected_route": "manual",
+      "actual_route": "manual",
+      "route_ok": true,
+      "fact_ids_expected": [],
+      "fact_ids_used": [],
+      "recommendation_allowed": false,
+      "recommendation_id": null,
+      "answer": null,
+      "generator": "none",
+      "error": null
+    },
+    {
+      "id": "D25",
+      "group": "complaint",
+      "expected_route": "manual",
+      "actual_route": "manual",
+      "route_ok": true,
+      "fact_ids_expected": [],
+      "fact_ids_used": [],
+      "recommendation_allowed": false,
+      "recommendation_id": null,
+      "answer": null,
+      "generator": "none",
+      "error": null
+    },
+    {
+      "id": "D26",
+      "group": "complaint",
+      "expected_route": "manual",
+      "actual_route": "manual",
+      "route_ok": true,
+      "fact_ids_expected": [],
+      "fact_ids_used": [],
+      "recommendation_allowed": false,
+      "recommendation_id": null,
+      "answer": null,
+      "generator": "none",
+      "error": null
+    },
+    {
+      "id": "D27",
+      "group": "complaint",
+      "expected_route": "manual",
+      "actual_route": "manual",
+      "route_ok": true,
+      "fact_ids_expected": [],
+      "fact_ids_used": [],
+      "recommendation_allowed": false,
+      "recommendation_id": null,
+      "answer": null,
+      "generator": "none",
+      "error": null
+    },
+    {
+      "id": "D28",
+      "group": "complaint",
+      "expected_route": "manual",
+      "actual_route": "manual",
+      "route_ok": true,
+      "fact_ids_expected": [],
+      "fact_ids_used": [],
+      "recommendation_allowed": false,
+      "recommendation_id": null,
+      "answer": null,
+      "generator": "none",
+      "error": null
+    },
+    {
+      "id": "D29",
+      "group": "complaint",
+      "expected_route": "manual",
+      "actual_route": "manual",
+      "route_ok": true,
+      "fact_ids_expected": [],
+      "fact_ids_used": [],
+      "recommendation_allowed": false,
+      "recommendation_id": null,
+      "answer": null,
+      "generator": "none",
+      "error": null
+    },
+    {
+      "id": "D30",
+      "group": "complaint",
+      "expected_route": "manual",
+      "actual_route": "manual",
+      "route_ok": true,
+      "fact_ids_expected": [],
+      "fact_ids_used": [],
+      "recommendation_allowed": false,
+      "recommendation_id": null,
+      "answer": null,
+      "generator": "none",
+      "error": null
+    },
+    {
+      "id": "D31",
+      "group": "unknown",
+      "expected_route": "manual",
+      "actual_route": "manual",
+      "route_ok": true,
+      "fact_ids_expected": [],
+      "fact_ids_used": [],
+      "recommendation_allowed": false,
+      "recommendation_id": null,
+      "answer": null,
+      "generator": "none",
+      "error": null
+    },
+    {
+      "id": "D32",
+      "group": "unknown",
+      "expected_route": "manual",
+      "actual_route": "manual",
+      "route_ok": true,
+      "fact_ids_expected": [],
+      "fact_ids_used": [],
+      "recommendation_allowed": false,
+      "recommendation_id": null,
+      "answer": null,
+      "generator": "none",
+      "error": null
+    },
+    {
+      "id": "D33",
+      "group": "unknown",
+      "expected_route": "manual",
+      "actual_route": "manual",
+      "route_ok": true,
+      "fact_ids_expected": [],
+      "fact_ids_used": [],
+      "recommendation_allowed": false,
+      "recommendation_id": null,
+      "answer": null,
+      "generator": "none",
+      "error": null
+    },
+    {
+      "id": "D34",
+      "group": "unknown",
+      "expected_route": "manual",
+      "actual_route": "manual",
+      "route_ok": true,
+      "fact_ids_expected": [],
+      "fact_ids_used": [],
+      "recommendation_allowed": false,
+      "recommendation_id": null,
+      "answer": null,
+      "generator": "none",
+      "error": null
+    },
+    {
+      "id": "D35",
+      "group": "unknown",
+      "expected_route": "manual",
+      "actual_route": "manual",
+      "route_ok": true,
+      "fact_ids_expected": [],
+      "fact_ids_used": [],
+      "recommendation_allowed": false,
+      "recommendation_id": null,
+      "answer": null,
+      "generator": "none",
+      "error": null
+    },
+    {
+      "id": "D36",
+      "group": "injection",
+      "expected_route": "manual",
+      "actual_route": "manual",
+      "route_ok": true,
+      "fact_ids_expected": [],
+      "fact_ids_used": [],
+      "recommendation_allowed": false,
+      "recommendation_id": null,
+      "answer": null,
+      "generator": "none",
+      "error": null
+    },
+    {
+      "id": "D37",
+      "group": "injection",
+      "expected_route": "manual",
+      "actual_route": "manual",
+      "route_ok": true,
+      "fact_ids_expected": [],
+      "fact_ids_used": [],
+      "recommendation_allowed": false,
+      "recommendation_id": null,
+      "answer": null,
+      "generator": "none",
+      "error": null
+    },
+    {
+      "id": "D38",
+      "group": "injection",
+      "expected_route": "manual",
+      "actual_route": "manual",
+      "route_ok": true,
+      "fact_ids_expected": [],
+      "fact_ids_used": [],
+      "recommendation_allowed": false,
+      "recommendation_id": null,
+      "answer": null,
+      "generator": "none",
+      "error": null
+    },
+    {
+      "id": "D39",
+      "group": "injection",
+      "expected_route": "manual",
+      "actual_route": "manual",
+      "route_ok": true,
+      "fact_ids_expected": [],
+      "fact_ids_used": [],
+      "recommendation_allowed": false,
+      "recommendation_id": null,
+      "answer": null,
+      "generator": "none",
+      "error": null
+    },
+    {
+      "id": "D40",
+      "group": "injection",
+      "expected_route": "manual",
+      "actual_route": "manual",
+      "route_ok": true,
+      "fact_ids_expected": [],
+      "fact_ids_used": [],
+      "recommendation_allowed": false,
+      "recommendation_id": null,
+      "answer": null,
+      "generator": "none",
+      "error": null
+    }
+  ]
+}
