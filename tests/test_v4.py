@@ -124,7 +124,9 @@ def test_article_filter_combines_sizes_but_keeps_exact_review_match(tmp_path,mon
 def test_100_review_fixture_has_photos_and_distinct_ids():
     rows=json.loads((ROOT/'data/demo_reviews_v4.json').read_text())
     assert len(rows)==100 and len({x['id'] for x in rows})==100
-    assert all(x['nm_id']==920101 for x in rows)
+    assert len({x['body'] for x in rows}) == len(rows)
+    assert len({x['nm_id'] for x in rows}) >= 6
+    assert {x['rating'] for x in rows} == {1, 2, 3, 4, 5}
     assert any(len(x.get('photo_urls',[]))>1 for x in rows)
 
 def test_quality_signal_creates_task_without_changing_facts(setup,monkeypatch):

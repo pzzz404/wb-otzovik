@@ -80,9 +80,20 @@ def seed_demo(cx):
     if setting(cx,'fixture_v3')!='1':
         for x in json.loads((ROOT/'data/demo_reviews_v2.json').read_text()):import_review(cx,x)
         set_setting(cx,'fixture_v3','1');WAKE.set()
-    if os.getenv('WB_V4_FIXTURES')=='1' and setting(cx,'fixture_v4')!='1':
-        for x in json.loads((ROOT/'data/demo_reviews_v4.json').read_text()):import_review(cx,x)
-        set_setting(cx,'fixture_v4','1');WAKE.set()
+    if os.getenv('WB_V4_FIXTURES')=='1' and setting(cx,'fixture_v4')!='showcase-2':
+        # Keep manager work and the original source for previously sent replies.
+        rows = json.loads((ROOT/'data/demo_reviews_v4.json').read_text())
+        for row in rows:
+            existing = cx.execute(
+                'SELECT status, manager_edited, send_attempts FROM reviews WHERE id=?',
+                (row['id'],)
+            ).fetchone()
+            if existing and (existing['status'] not in ('new','needs_review','ready_auto')
+                             or existing['manager_edited'] or existing['send_attempts']):
+                continue
+            import_review(cx,row)
+        set_setting(cx,'fixture_v4','showcase-2')
+        WAKE.set()
 
 def db_for(request):
     cx=connect(database_for(request))

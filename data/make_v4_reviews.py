@@ -21,5 +21,5 @@ for n in range(1,101):
          'created_date':(start+timedelta(minutes=4*n)).isoformat(),
          'order_status':'buyout' if n%3 else 'unknown'}
     rows.append(row)
-out=ROOT/'data/demo_reviews_v4.json';out.write_text(json.dumps(rows,ensure_ascii=False,indent=2)+'\n')
+out=ROOT/'.data/load-test/dress-reviews.json';out.parent.mkdir(parents=True,exist_ok=True);out.write_text(json.dumps(rows,ensure_ascii=False,indent=2)+'\n')
 print(out,len(rows))
